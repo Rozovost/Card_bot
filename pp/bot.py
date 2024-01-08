@@ -4,7 +4,7 @@ from PIL import Image
 welcome_image = Image.open("pp/welcome_image.png")
 help_image = Image.open("pp/help_image.png")
 info_image = Image.open("pp/info_image.png")
-token = "6742110064:AAE6qm2tDDQ9LG0B0nKiceorXXwOE-2FPJE"
+token = "" # YOUR TOKEN
 bot = telebot.TeleBot(token)
 
 
